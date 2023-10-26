@@ -1,0 +1,175 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "T01Ejercicio09",
+      "request": "launch",
+      "mainClass": "T01Ejercicio09",
+      "projectName": "01_Salida_de_datos_por_pantalla_89df3cd4"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio08",
+      "request": "launch",
+      "mainClass": "T01Ejercicio08",
+      "projectName": "01_Salida_de_datos_por_pantalla_89df3cd4"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio10",
+      "request": "launch",
+      "mainClass": "T01Ejercicio10",
+      "projectName": "01_Salida_de_datos_por_pantalla_89df3cd4"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio05",
+      "request": "launch",
+      "mainClass": "T01Ejercicio05",
+      "projectName": "01_Salida_de_datos_por_pantalla_89df3cd4"
+    },
+    {
+      "type": "java",
+      "name": "HolaMundo",
+      "request": "launch",
+      "mainClass": "HolaMundo",
+      "projectName": "01_Salida_de_datos_por_pantalla_89df3cd4"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio10",
+      "request": "launch",
+      "mainClass": "T01Ejercicio10",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio09",
+      "request": "launch",
+      "mainClass": "T01Ejercicio09",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio08",
+      "request": "launch",
+      "mainClass": "T01Ejercicio08",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio07",
+      "request": "launch",
+      "mainClass": "T01Ejercicio07",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio01",
+      "request": "launch",
+      "mainClass": "T01Ejercicio01",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio02",
+      "request": "launch",
+      "mainClass": "T01Ejercicio02",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio06",
+      "request": "launch",
+      "mainClass": "T01Ejercicio06",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio5",
+      "request": "launch",
+      "mainClass": "T01Ejercicio5",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio03",
+      "request": "launch",
+      "mainClass": "T01Ejercicio03",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio05",
+      "request": "launch",
+      "mainClass": "T01Ejercicio05",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio04",
+      "request": "launch",
+      "mainClass": "T01Ejercicio04",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Colores",
+      "request": "launch",
+      "mainClass": "Colores",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "SalidaFormateada01",
+      "request": "launch",
+      "mainClass": "SalidaFormateada01",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "SalidaFormateada02",
+      "request": "launch",
+      "mainClass": "SalidaFormateada02",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio1",
+      "request": "launch",
+      "mainClass": "T01Ejercicio1",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio2",
+      "request": "launch",
+      "mainClass": "T01Ejercicio2",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "T01Ejercicio3",
+      "request": "launch",
+      "mainClass": "T01Ejercicio3",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    },
+    {
+      "type": "java",
+      "name": "TablaDeColores",
+      "request": "launch",
+      "mainClass": "TablaDeColores",
+      "projectName": "01_Salida_de_datos_por_pantalla_a551ae8c"
+    }
+  ]
+}
