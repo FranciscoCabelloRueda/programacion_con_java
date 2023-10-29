@@ -18,7 +18,7 @@ public class T03Ejercicio05 {
     double base = sc.nextDouble();
     double altura = sc.nextDouble();
 
-    System.out.println("El área del rectangulo es = " + (base*altura) + " metros cúbicos" );
+    System.out.println("El área del rectangulo es = " + (base*altura) + " metros cuadrados" );
 
     sc.close();
   }

@@ -18,7 +18,7 @@ public class T03Ejercicio06 {
     double base = sc.nextDouble();
     double altura = sc.nextDouble();
 
-    System.out.println("El área del triángulo es = " + ( (base*altura) / 2) + " metros cúbicos" );
+    System.out.println("El área del triángulo es = " + ( (base*altura) / 2) + " metros cuadrados" );
 
     sc.close();
   }
