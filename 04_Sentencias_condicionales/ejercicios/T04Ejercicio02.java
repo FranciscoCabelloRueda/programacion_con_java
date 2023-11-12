@@ -8,32 +8,26 @@ import java.util.Scanner;
 
 public class T04Ejercicio02 {
   public static void main(String[] args) {
-  
-  Scanner sc = new Scanner(System.in);
+    
+    Scanner sc = new Scanner(System.in);
 
-  System.out.println("Introduce el número del mes que quieres conocer");
-
-  int mes = sc.nextInt();
-
-  switch (mes) {
-   case 1: System.out.println("Enero"); break;
-   case 2: System.out.println("Febrero"); break;
-   case 3: System.out.println("Marzo"); break;
-   case 4: System.out.println("Abril"); break;
-   case 5: System.out.println("Mayo"); break;
-   case 6: System.out.println("Junio"); break;
-   case 7: System.out.println("Julio"); break;
-   case 8: System.out.println("Agosto"); break;
-   case 9: System.out.println("Septiembre"); break;
-   case 10: System.out.println("Octubre"); break;
-   case 11: System.out.println("Noviembre"); break;
-   case 12: System.out.println("Diciembre"); break;
-
-   default:System.out.println("**Error: no se corresponde a ningun mes del año");
-     break;
+    System.out.print("Introduce la hora del día actual:");
+    int hora = sc.nextInt();
+    System.out.println("=================================");
+    
+    if ((6 <= hora) && (hora <= 12) ) {
+    System.out.println("Buenos días");  
+    }
+    if ((13 <= hora) && (hora <= 20) ) {
+    System.out.println("Buenos tardes");  
+    }
+    if (((hora <= 5) && (1 <= hora)) || ((21 <= hora) && (hora <= 24)) ) {
+    System.out.println("Buenos noches");  
+    }
+    if ((25 <= hora) || (hora <= 0) ) {
+    System.out.println("**ERROR** La hora introducida no existe");  
+    }
+ 
+    sc.close();
   }
-
-  sc.close();
-  }
-
 }

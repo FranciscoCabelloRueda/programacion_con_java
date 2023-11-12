@@ -8,47 +8,47 @@ import java.util.Scanner;
 
 public class T04Ejercicio03 {
   public static void main(String[] args) {
-  
-  Scanner sc = new Scanner(System.in);
+    
+    Scanner sc = new Scanner(System.in);
 
-  System.out.println("¿Que área deseas calcular?");
-  System.out.println("Triangulo (1)");
-  System.out.println("Cuadrado (2)");
-  System.out.println("Rectangulo (3)");
+    System.out.print("Introduce el dia de la semana del cual deseas conocer el nombre:");
+    int dia = sc.nextInt();
+    System.out.println("=================================================================");
+    switch (dia) {
 
-
-
-  int seleccion = sc.nextInt();
-
-  switch (seleccion) {
-    case 1:
-    System.out.println("Introduce la base del triangulo");
-    double baseTriangulo = sc.nextDouble();
-    System.out.println("Introduce la altura del triangulo");
-    double alturaTriangulo = sc.nextDouble();
-    System.out.println("El área del triangulo es de " + ((baseTriangulo * alturaTriangulo) / 2) + " metros cuadrados.");
-      
-    break;
-    case 2:
-    System.out.println("Introduce la longitud del lado del cuadrado");
-    double ladoCuadrado = sc.nextDouble();
-    System.out.println("El área del cuadrado es de " + (ladoCuadrado * ladoCuadrado) + " metros cuadrados.");
-      
-    break;
-    case 3:
-    System.out.println("Introduce la base del rectangulo");
-    double baseRectangulo = sc.nextDouble();
-    System.out.println("Introduce la altura del rectangulo");
-    double alturaRectangulo = sc.nextDouble();
-    System.out.println("El área del rectangulo es de " + (baseRectangulo * alturaRectangulo) + " metros cuadrados."); 
-    break;
-  
-    default:
-    System.out.println("**ERROR: Número no valido");
+      case 1:
+      System.out.println("El dia introducido es LUNES");  
       break;
-  }
+  
+      case 2:
+      System.out.println("El dia introducido es MARTES");  
+      break;
 
-  sc.close();
-  }
+      case 3:
+      System.out.println("El dia introducido es MIERCOLES");  
+      break;
 
+      case 4:
+      System.out.println("El dia introducido es JUEVES");  
+      break;
+
+      case 5:
+      System.out.println("El dia introducido es VIERNES");  
+      break;
+
+      case 6:
+      System.out.println("El dia introducido es SÁBADO");  
+      break;
+
+      case 7:
+      System.out.println("El dia introducido es DOMINGO");  
+      break;
+    
+      default:
+      System.out.println("**ERROR** El día de la semana indicado no existe.");  
+      break;
+    }
+
+    sc.close();
+  }
 }
