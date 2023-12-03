@@ -1,12 +1,11 @@
 /**
-* T04Ejercicio27
+* T04Ejercicio28
 *
 * @author Francisco Javier Cabello Rueda
 *
 */
 
 import java.util.Scanner;
-
 public class T04Ejercicio28 {
 
   public static void main(String[] args) {
