@@ -15,7 +15,6 @@ public class T05Ejercicio25 {
     int numeroIntroducido = sc.nextInt();
     sc.close();
     int copiaNumero = Math.abs(numeroIntroducido);
-System.out.println(copiaNumero);
     //Obtenemos la cifra de las unidades, decenas, centenas...del resto de dividir por 10
     while (copiaNumero > 0) {
       numeroVolteado = (copiaNumero % 10) + (numeroVolteado * 10);
