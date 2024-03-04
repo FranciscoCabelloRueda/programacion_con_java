@@ -1,26 +1,35 @@
 /**
- * Coche
- * 
- * @author Francisco Javier Cabello Ruedda
- */
+* Coche.java
+* Definición de la clase Coche
+* @author Francisco Javier Cabello Rueda
+*/
 public class Coche {
 
-   //Atributos
-   String matricula;
-   String modelo;
-   String marca;
-   int puertas;
-   String color;
-   int potencia;
+  // atributo de clase
+  private static int kilometrajeTotal = 0;
 
-  public static void main(String[] args) {
-    Coche miCoche = new Coche();
-    Coche tuCoche = new Coche();
+  // método de clase
+  public static int getKilometrajeTotal() {
+    return kilometrajeTotal;
+  }
 
-    miCoche.matricula = "1234ABC";
-    System.out.println("Matricula coche 1: " + miCoche.matricula);
-    System.out.println("Potencia coche 1: " + miCoche.potencia);
-    System.out.println("Matricula coche 2: " + tuCoche.matricula);
-    System.out.println("Potencia coche 2: " + tuCoche.potencia);
+  private int kilometraje;
+
+  public Coche() {
+    kilometraje = 0;
+  }
+
+  public int getKilometraje() {
+    return kilometraje;
+  }
+
+  /**
+  * Recorre una determinada distancia.
+  *
+  * @param km distancia a recorrer en kilómetros
+  */
+  public void recorre(int km) {
+    kilometraje += km;
+    kilometrajeTotal += km;
   }
 }
