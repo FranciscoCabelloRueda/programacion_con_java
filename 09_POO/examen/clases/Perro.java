@@ -7,7 +7,7 @@ package clases;
 public class Perro extends Mascota {
 
   //Atributos
-  String raza;
+  private String raza;
   static int totalPerros;
 
   //Constructor
@@ -47,7 +47,7 @@ public class Perro extends Mascota {
       System.out.println(this.nombre + " se encuentra vacunado/a");
     } else {
       vacunada = true;
-      grunir();
+      this.grunir();
     }
   }
 

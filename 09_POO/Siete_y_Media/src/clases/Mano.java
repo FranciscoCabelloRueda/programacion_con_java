@@ -19,13 +19,13 @@ public class Mano {
 
   //Getters
 
-  public double getPuntosAcumulados() {
+  public double getPuntosAcumulados() {     //Establece los puntos acumulados
     return puntosAcumulados;
   }
 
   //Setters
 
-  public void setPuntosAcumulados(int puntosAcumulados) {
+  public void setPuntosAcumulados(int puntosAcumulados) {  //Establece los puntos acumulados
     this.puntosAcumulados = puntosAcumulados;
   }
 

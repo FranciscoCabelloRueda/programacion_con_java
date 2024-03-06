@@ -6,10 +6,10 @@ package clases;
 */
 public abstract class Mascota implements MascotaInterface {
   //Atributos
-  String chip;
-  String nombre;
-  int edad;
-  boolean vacunada = false;
+  protected String chip;
+  protected String nombre;
+  protected int edad;
+  protected boolean vacunada = false;
   static int totalMascotas;
 
   //Constructor

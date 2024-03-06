@@ -5,5 +5,5 @@ package clases;
 * @author Francisco Javier Cabello Rueda
 */
 public interface MascotaInterface {
-  void pasear();
+  public void pasear();
 }
